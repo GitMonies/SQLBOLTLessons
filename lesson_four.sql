@@ -1,0 +1,7 @@
+SELECT DISTINCT Director FROM Movies ORDER BY Director 
+
+SELECT Title, Year FROM movies ORDER BY Year DESC LIMIT 4
+
+SELECT Title, Year FROM movies ORDER BY Title LIMIT 5
+
+SELECT Title, Year FROM movies ORDER BY Title LIMIT 5 OFFSET 5
